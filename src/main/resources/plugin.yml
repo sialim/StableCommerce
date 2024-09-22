@@ -1,0 +1,10 @@
+name: StableCommerce
+version: '${project.version}'
+main: me.sialim.stablecommerce.StableCommerce
+api-version: '1.21'
+depend: [Vault]
+commands:
+  sellgold:
+    usage: /sellgold
+  buygold:
+    usage: /buygold
